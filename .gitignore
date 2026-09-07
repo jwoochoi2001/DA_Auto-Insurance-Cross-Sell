@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+
+# 재현 가능한 생성물 (analysis/run_pipeline.py 로 다시 생성)
+data/processed/*.csv
+data/processed/*.json
+outputs/figures/*.png
+outputs/tables/*.csv
+outputs/dashboard/*.csv
+outputs/model/*.joblib
+outputs/model/*.json
+
+# .gitkeep 과 README 이미지는 유지
+!**/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
